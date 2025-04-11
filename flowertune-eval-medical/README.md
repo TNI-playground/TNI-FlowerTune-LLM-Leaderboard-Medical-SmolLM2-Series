@@ -35,7 +35,7 @@ python eval.py \
 --datasets=pubmedqa,medmcqa,medqa,careqa
 ```
 
-Download fine-tuned model from [Google Drive](), put everything under `results` directory
+Download fine-tuned model from [Google Drive](https://drive.google.com/drive/folders/1XFobKEA4Bv6cYB0fLDk6xnvM39JM-GSk?usp=sharing), put everything under `results` directory
 
 ```bash
 cd /your_project_path/NI-FlowerTune-LLM-Leaderboard-Medical-SmolLM2-Series
