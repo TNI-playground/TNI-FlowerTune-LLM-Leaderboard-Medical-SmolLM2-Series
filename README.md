@@ -53,7 +53,7 @@ We use models with 4-bit quantization as default. The estimated VRAM consumption
 |Models|SmolLM2-135M-Instruct (BS=16)|SmolLM2-360M-Instruct (BS=16) |SmolLM2-135M (BS=16)|SmolLM2-360M (BS=16) |
 | :----: | :--------:                | :--------:                   | :--------:         | :--------:          |
 |VRAM    |        7.50 GB            |           7.40 GB            |      7.43 GB       |     8.09 GB         |
-|Comm    |       1417.97 MB          |          2512.50 MB          |         MB         |     2512.50 MB      |
+|Comm    |       1417.97 MB          |          2512.50 MB          |      1417.97 MB    |     2512.50 MB      |
 
 You can adjust the CPU/GPU resources you assign to each of the clients based on your device, which are specified with `options.backend.client-resources.num-cpus` and `options.backend.client-resources.num-gpus` under `[tool.flwr.federations.local-simulation]` entry in `pyproject.toml`.
 
