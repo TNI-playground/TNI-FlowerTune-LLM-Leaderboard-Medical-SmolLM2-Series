@@ -46,10 +46,10 @@ bash script.sh
 
 | Challenges                       | pubmedqa   |   medqa    |  medmcqa    |   careqa      |  Avg       |
 | :--------:                       | :--------: | :--------: | :--------:  | :--------:    | :--------: |
-|SmolLM2-135M-Instruct (200Rounds) |  | | | | |
-|SmolLM2-135M (200Rounds)          |  | | | | |
-|SmolLM2-360M-Instruct (200Rounds) |  | | | | |
-|SmolLM2-360M (200Rounds)          |  | | | | |
+|SmolLM2-135M-Instruct (200Rounds) |    54.20   |   0.09     |   6.93      |    6.86       |            |
+|SmolLM2-135M (200Rounds)          |            |            |             |               |            |
+|SmolLM2-360M-Instruct (200Rounds) |   22.00    |   1.33     |   7.14      |    7.04       |            |
+|SmolLM2-360M (200Rounds)          |   0.15     |   0.15     |   0         |    0.01       |            |
 
 
 The model answers and accuracy values will be saved to `benchmarks/generation_{dataset_name}_{run_name}.jsonl` and `benchmarks/acc_{dataset_name}_{run_name}.txt`, respectively.
