@@ -46,6 +46,15 @@ The configs are defined in `[tool.flwr.app.config]` entry of `pyproject.toml`, a
 flwr run
 ```
 
+### Benchmark
+
+| Challenges                       | pubmedqa   |   medqa    |  medmcqa    |   careqa      |  Avg       |
+| :--------:                       | :--------: | :--------: | :--------:  | :--------:    | :--------: |
+|[SmolLM2-135M-Instruct](https://drive.google.com/drive/folders/18EAnCevXHU1EcYF_wY6VSUPDDPRDMXtJ?usp=drive_link) (200Rounds) |    54.20   |   0.09     |   6.93      |    6.86       |  17.02     |
+|[SmolLM2-135M](https://drive.google.com/drive/folders/1lgFJ6epmAS3MCPInYKkvdSHBejpf2HrT?usp=drive_link) (200Rounds)          |    7.20    |   2.67     |   16.80     |    18.51      |  11.29     |
+|[SmolLM2-360M-Instruct](https://drive.google.com/drive/folders/1bacSmrJ3ovkGJ0gckKUYTeGB2wwuBTTG?usp=drive_link) (200Rounds) |   22.00    |   1.33     |   7.14      |    7.04       |   9.37     |
+|[SmolLM2-360M](https://drive.google.com/drive/folders/1-NTksp67xJwGgI9vyXrwhfy8gkEEs5xj?usp=drive_link) (200Rounds)          |   0.15     |   0.15     |   0         |    0.01       |   0.07     |
+
 ## VRAM consumption
 
 We use models with 4-bit quantization as default. The estimated VRAM consumption per client for each challenge is shown below:
