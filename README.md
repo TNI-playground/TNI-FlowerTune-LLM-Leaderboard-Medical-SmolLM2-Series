@@ -48,6 +48,8 @@ flwr run
 
 ### Benchmark
 
+All the experiments are conducted on a NVIDIA GeForce GTX 1080 (8 GB).
+
 | Challenges                       | pubmedqa   |   medqa    |  medmcqa    |   careqa      |  Avg       |
 | :--------:                       | :--------: | :--------: | :--------:  | :--------:    | :--------: |
 |[SmolLM2-135M-Instruct](https://drive.google.com/drive/folders/18EAnCevXHU1EcYF_wY6VSUPDDPRDMXtJ?usp=drive_link) (200Rounds) |    54.20   |   0.09     |   6.93      |    6.86       |  17.02     |
